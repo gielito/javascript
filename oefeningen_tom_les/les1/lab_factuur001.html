@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Variabelen</title>
+</head>
+
+<body>
+    <script>
+        var klantnaam = prompt("voer je eigen naam in");
+        var aantal = parseInt(prompt("aantal boeken te bestellen?"));
+        var titel = "JavaScript";
+        var prijs = 29.90;
+        var bedrag = aantal * prijs;
+        var btw = bedrag * 0.06;
+        var totaal = (bedrag + btw);
+        document.write("<br> Bedankt voor je bestelling:" + klantnaam);
+        document.write("<br> boektitel is:" + titel);
+        document.write("<br>aantal te bestellen:" + aantal);
+        document.write("<br>prijs per boek is:" + prijs.toFixed(2));
+        document.write("<br>bedrag is:" + bedrag);
+        document.write("<br>btw is:" + btw.toFixed(2));
+        document.write("<br>Totaal inclusie BTW is:" + totaal.toFixed(2));
+    </script>
+
+</body>
+
+</html>

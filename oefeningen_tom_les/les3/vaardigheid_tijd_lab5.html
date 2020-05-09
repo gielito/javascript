@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript object</title>
+</head>
+
+<body>
+    <script>
+        var einddatum = prompt("Wat is de einddatum JJJJ-MM-DD?");
+        var deadline = new Date(einddatum);
+        document.write("<br>De deadline is:" + deadline);
+        var nu = Date.now();
+        var dag = 86400000;
+        var resterende = ((deadline - nu) / dag).toFixed(0);
+        document.write(resterende);
+    </script>
+
+</body>
+
+</html>

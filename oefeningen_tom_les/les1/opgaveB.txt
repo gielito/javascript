@@ -1,0 +1,10 @@
+Je vliegt deze zomer op vakantie naar een zonnig land en gaat ter plaatse 3 steden bezoeken.
+Vraag volgende zaken:
+vliegBestemming
+vliegBestemmingKost
+bestemming1Naam
+bestemming1Kost
+bestemming2Naam
+bestemming2Kost
+bestemming3Naam
+bestemming3Kost
